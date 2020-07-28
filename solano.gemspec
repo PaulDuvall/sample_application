@@ -32,7 +32,7 @@ EOF
 
   s.add_runtime_dependency("thor", "~> 0.19")
   s.add_runtime_dependency("highline", "~> 1.6")
-  s.add_runtime_dependency("json", "~> 1.8")
+  s.add_runtime_dependency("json", ">= 1.8", "< 3.0")
   s.add_runtime_dependency("launchy", "~> 2.4")
   s.add_runtime_dependency("addressable", "~> 2.3")
   s.add_runtime_dependency("github_api", "~> 0.12")
